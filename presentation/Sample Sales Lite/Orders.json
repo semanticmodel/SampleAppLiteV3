@@ -38,18 +38,22 @@
         "alternateNames": [
           "H3 Orders"
         ],
+        "sourceLogicalTable": "logicalTable:SampleApp Lite.D3 Orders (Facts Attributes)",
         "levels": [ {
             "name": "All Orders",
             "alternateNames": [
               "Total Orders"
-            ]
+            ],
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D3 Orders (Facts Attributes).Total Orders"
           },
           {
             "name": "Order Type",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D3 Orders (Facts Attributes).Order Type",
             "displayColumn": "presentationColumn:Sample Sales Lite.Orders.Order Type"
           },
           {
             "name": "Order Details",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D3 Orders (Facts Attributes).Order Details",
             "displayColumn": "presentationColumn:Sample Sales Lite.Orders.Order Number"
           }
         ]

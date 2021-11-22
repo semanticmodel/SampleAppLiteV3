@@ -28,12 +28,14 @@
         "alternateNames": [
           "H3 Offices"
         ],
+        "sourceLogicalTable": "logicalTable:SampleApp Lite.D2 Offices",
         "levels": [ {
             "name": "All Offices",
             "alternateNames": [
               "Eden Corporation",
               "Offices Total"
-            ]
+            ],
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D2 Offices.Total Offices"
           },
           {
             "name": "Companies",
@@ -41,6 +43,7 @@
               "Company",
               "Offices Company"
             ],
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D2 Offices.Offices Company",
             "displayColumn": "presentationColumn:Sample Targets Lite.Offices.Company"
           },
           {
@@ -48,6 +51,7 @@
             "alternateNames": [
               "Offices Organization"
             ],
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D2 Offices.Offices Organization",
             "displayColumn": "presentationColumn:Sample Targets Lite.Offices.Organization"
           },
           {
@@ -55,10 +59,12 @@
             "alternateNames": [
               "Offices Department"
             ],
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D2 Offices.Offices Department",
             "displayColumn": "presentationColumn:Sample Targets Lite.Offices.Department"
           },
           {
             "name": "Offices",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D2 Offices.Offices Detail",
             "displayColumn": "presentationColumn:Sample Targets Lite.Offices.Office"
           }
         ]

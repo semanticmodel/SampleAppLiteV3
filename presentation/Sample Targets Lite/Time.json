@@ -39,31 +39,39 @@
           "H0 Time",
           "Time Hier"
         ],
+        "sourceLogicalTable": "logicalTable:SampleApp Lite.D0 Time",
         "levels": [ {
-            "name": "Total Time"
+            "name": "Total Time",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Total Time"
           },
           {
             "name": "Year",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Year",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Per Name Year"
           },
           {
             "name": "Half",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Half",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Per Name Half"
           },
           {
             "name": "Quarter",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Quarter",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Per Name Qtr"
           },
           {
             "name": "Month",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Month",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Per Name Month"
           },
           {
             "name": "Week",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Week",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Per Name Week"
           },
           {
             "name": "Day Detail",
+            "sourceLogicalLevel": "logicalLevel:SampleApp Lite.D0 Time.Day Detail",
             "displayColumn": "presentationColumn:Sample Targets Lite.Time.Calendar Date"
           }
         ]

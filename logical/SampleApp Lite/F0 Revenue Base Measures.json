@@ -178,9 +178,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Billed Quantity"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -196,9 +193,6 @@
               "logicalColumn:SampleApp Lite.F1 Targets Base Measures.Target Quantity"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -214,9 +208,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.# of Orders"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -232,9 +223,6 @@
               "logicalColumn:SampleApp Lite.F1 Targets Base Measures.Target Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -246,9 +234,6 @@
           "logicalExpression": {
             "expressionTemplate": "1"
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -263,9 +248,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -281,9 +263,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Period Ago Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -299,9 +278,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Period Ago Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -316,9 +292,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -330,9 +303,6 @@
           "logicalExpression": {
             "expressionTemplate": "1"
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -348,9 +318,6 @@
               "logicalLevel:SampleApp Lite.D0 Time.Month"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -366,9 +333,6 @@
               "logicalLevel:SampleApp Lite.D0 Time.Quarter"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -384,9 +348,6 @@
               "logicalLevel:SampleApp Lite.D0 Time.Year"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -402,9 +363,6 @@
               "logicalLevel:SampleApp Lite.D0 Time.Quarter"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -416,9 +374,6 @@
           "logicalExpression": {
             "expressionTemplate": "1"
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
@@ -473,9 +428,6 @@
               "logicalColumn:SampleApp Lite.F0 Revenue Base Measures.Revenue"
             ]
           }
-        },
-        "aggregation": {
-          "rule": "NONE"
         }
       },
       {
