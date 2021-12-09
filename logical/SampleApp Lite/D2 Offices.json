@@ -232,7 +232,7 @@
           ],
           "displayKey": "Office",
           "preferredDrillPath": [
-            "SampleApp Lite.H3 Orders.Order Type"
+            "logicalLevel:SampleApp Lite.D3 Orders (Facts Attributes).Order Type"
           ]
         }
       ],

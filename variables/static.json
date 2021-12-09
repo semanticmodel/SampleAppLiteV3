@@ -1,7 +1,7 @@
 {
   "initBlock": {
-    "name": "static",
-    "description": "Generated variables",
+    "name": "staticVariables",
+    "description": "rpd repository static variables",
     "type": "STATIC",
     "variables": [
       {

@@ -235,7 +235,7 @@
           ],
           "displayKey": "Product",
           "preferredDrillPath": [
-            "SampleApp Lite.H2 Offices.Offices Detail"
+            "logicalLevel:SampleApp Lite.D2 Offices.Offices Detail"
           ]
         }
       ],
