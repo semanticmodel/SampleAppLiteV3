@@ -68,7 +68,7 @@
           "physicalMappings": [ {
               "logicalTableSource": "LTS1 Revenue Facts (Order grain)",
               "physicalExpression": {
-                "expressionTemplate": "case when  %1 <1000 then 'Below 1k'\r\nwhen  %1 <2000 then 'Between 1k and 2k'\r\nwhen  %1 <3000 then 'Between 2k and 3k'\r\nwhen  %1 <5000 then 'Between 3k and 5k'\r\nelse 'Over 5k'\r\nend\r\n\r\n",
+                "expressionTemplate": " CASE  WHEN %1 < 1000 THEN 'Below 1k' WHEN %1 < 2000 THEN 'Between 1k and 2k' WHEN %1 < 3000 THEN 'Between 2k and 3k' WHEN %1 < 5000 THEN 'Between 3k and 5k' ELSE 'Over 5k' END ",
                 "expressionObjects": [
                   "physicalColumn:Sample App Lite Data.F10 Revenue Facts (Order grain).Revenue"
                 ]
@@ -133,7 +133,7 @@
           "physicalMappings": [ {
               "logicalTableSource": "LTS1 Revenue Facts (Order grain)",
               "physicalExpression": {
-                "expressionTemplate": "Month( %1)",
+                "expressionTemplate": " EXTRACT( MONTH  FROM %1)",
                 "expressionObjects": [
                   "physicalColumn:Sample App Lite Data.F10 Revenue Facts (Order grain).Order_Day_Dt"
                 ]
@@ -151,7 +151,7 @@
           "physicalMappings": [ {
               "logicalTableSource": "LTS1 Revenue Facts (Order grain)",
               "physicalExpression": {
-                "expressionTemplate": "Year( %1)",
+                "expressionTemplate": " EXTRACT( YEAR  FROM %1)",
                 "expressionObjects": [
                   "physicalColumn:Sample App Lite Data.F10 Revenue Facts (Order grain).Order_Day_Dt"
                 ]
